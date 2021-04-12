@@ -1,3 +1,11 @@
+<#
+    4/12/2021
+    Mark Telier
+
+    Veeam ONE 11 RESTFul API Tutorial
+    Demonstrate connecting to API and pulling data
+#>
+
 function Connect-VeeamAPI {
     [CmdletBinding()]
     param (
@@ -48,13 +56,6 @@ function Get-VeeamAPI {
     
 }
 
-<#
-    4/12/2021
-    Mark Telier
-
-    Veeam ONE 11 RESTFul API Tutorial
-    Demonstrate connecting to API and pulling data
-#>
 
 # ---------- DEFINE VARIABLES ---------- #
 $veeamAPI = "https://veeamone.acme.com:1239"
